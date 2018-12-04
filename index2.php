@@ -40,7 +40,6 @@
 </head>
 <body>
 	<?php
-		
 		include 'connectDB.php';
 		mysqli_set_charset($con,'utf8');
 		if(isset($_SESSION['cartItem']));
@@ -71,7 +70,7 @@
 				<span style="font-size: 50px; color: white; margin-left: 20px">Team 07</span>
 			</div>
 		</div>
-		<div class="col-md-4 col-xs-4">
+		<div class="col-md-4 col-sm-4">
 			<div class="col-md-6 text-center" style="height: 105px;display: flex; align-items: center;">
 				<input type="button" id="cartButton" value="Giỏ hàng">
 			</div>
